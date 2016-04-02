@@ -2,12 +2,25 @@
 using System.Collections;
 
 public class Pattern : MonoBehaviour {
-    private int[] pattern = new int[8]; //Store pattern
-    private double timeStep = 0; //Time each step waits
+    private int[,] pattern = {
+        {1, 3, 0, 0, 2, 4, 0, 0},
+        {1, 0, 3, 5, 1, 0, 3, 5},
+        {3, 0, 2, 1, 0, 5, 4, 3},
+        {6, 8, 7, 5, 0, 0, 0, 0},
+        {6, 0, 6, 4, 3, 0, 6, 2}
+    };
 
-	// Use this for initialization
-	void Start () {
-        genPattern(5);
+    private int[,] tempo = {
+        {1, 0, 1, 0, 1, 0, 1, 0},
+        {4, 4, 0, 0, 4, 4, 0, 0},
+        {5, 5, 5, 0, 5, 5, 5, 0},
+        {7, 0, 0, 0, 7, 0, 0, 0},
+        {6, 0, 0, 6, 6, 0, 0, 6}
+    };
+
+    // Use this for initialization
+    void Start () {
+        Debug.Log(getPattern());
     }
 	
 	// Update is called once per frame
@@ -15,31 +28,19 @@ public class Pattern : MonoBehaviour {
         
 	}
 
-    public void genPattern(int seed)
+    public int[] getPattern()
     {
-        int[] keys = new int[Random.Range(1, seed + 1) + 1]; //One for each key, plus the zero
-        keys[0] = 0;
+        int index = Random.Range(0, 5);
 
-        for (int loop = 1; loop <= keys.Length; ++loop)
-        {
-            keys[loop] = Random.Range(1, 9);
-            //Debug.Log(keys[loop]);
-        }
-
-        for (int loop = 0; loop < pattern.Length; ++loop)
-        {
-            pattern[loop] = keys[Random.Range(0, keys.Length - 1];
-            Debug.Log(pattern[loop]);
-        }
+        return new int[] {pattern[index, 0], pattern[index, 1], pattern[index, 2], pattern[index, 3], pattern[index, 4],
+            pattern[index, 5], pattern[index, 6], pattern[index, 7]};
     }
 
-    public void genTempo(int seed)
+    public int[] getTempo()
     {
-        int key = Random.Range(1, 9);
-        int arrSize = Random.Range(2, 4);
+        int index = Random.Range(0, 5);
 
-        //int[] beat = ;
-
-
+        return new int[] {tempo[index, 0], tempo[index, 1], tempo[index, 2], tempo[index, 3], tempo[index, 4],
+            tempo[index, 5], tempo[index, 6], tempo[index, 7]};
     }
 }
