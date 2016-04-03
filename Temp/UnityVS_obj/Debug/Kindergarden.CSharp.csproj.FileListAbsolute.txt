@@ -1,0 +1,13 @@
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_obj\Debug\Kindergarden.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+C:\Users\James\Documents\KindergardenCF2016\Kindergarden\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb
